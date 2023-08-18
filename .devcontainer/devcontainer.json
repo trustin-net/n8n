@@ -1,0 +1,13 @@
+{
+	"name": "Trust n8n",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-18-bullseye",
+	"features": {
+		"ghcr.io/devcontainers/features/terraform:1": {},
+		"ghcr.io/devcontainers/features/azure-cli:1": {},
+		"ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {}
+	},
+	"runArgs": [
+		"--env-file",
+		".devcontainer/devcontainer.env"
+	]
+}
