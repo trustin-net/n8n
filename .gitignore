@@ -1,0 +1,12 @@
+# Secrets
+*.env
+!*.example.env
+!*.sample.env
+
+# Terraform
+.terraform
+.terraform.lock*
+terraform.tfstate*
+
+# Backup folder
+bak_*
