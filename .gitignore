@@ -5,8 +5,8 @@
 
 # Terraform
 .terraform
-.terraform.lock*
 terraform.tfstate*
 
 # Backup folder
+bak
 bak_*
